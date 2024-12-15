@@ -12,7 +12,7 @@ API_ID = int(getenv("API_ID", "27956216"))
 API_HASH = getenv("API_HASH", "7e79fca1cf1c9974dd623753fd5d2102")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7356074420:AAHnSu5Cx2r8CyJDY51Zo03g-1mi5Vtap0M")
+BOT_TOKEN = getenv("BOT_TOKEN", "7774513334:AAEEMBIDoKM0mnZ_28T6LAd0qC_6gtyNFBg")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://asmit9831:TrDIQxzoaVVMZ9Ea@cluster0.wkoxp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -22,7 +22,7 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002444583901"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002444583901"))
 
 # Get this value Telegram id
